@@ -62,7 +62,7 @@ namespace Home_task_1_2
                 lineCounter++;
             }
         }
-
+// Не зрозуміла світлої ідеї, навіщо матрицю переганяти в довгу стрічку символів. Треба поспілкуватись після пари.
         public void GenerateRandomMatrix(int height, int width)
         {
             Lines = new List<string>();
