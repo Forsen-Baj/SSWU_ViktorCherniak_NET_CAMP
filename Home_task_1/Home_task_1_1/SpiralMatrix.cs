@@ -28,6 +28,7 @@ namespace Home_task_1_1
             }
         }
 
+        
         bool IsCompleted(int counter)
         {
             return counter > _width * _height;
@@ -65,7 +66,7 @@ namespace Home_task_1_1
                 x++; y++; lengthX--;
             }
         }
-
+// Метод ToString() замість оцього методу.
         public void Print()
         {
             _generateMatrix();
