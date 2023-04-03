@@ -17,6 +17,22 @@ namespace Home_task_1_3
             _data = new int[size, size, size];
         }
 
+        public override string ToString()
+        {
+            string result = "";
+
+            for (int y=0; y<_size; y++)
+            {
+                string face = "";
+                for (int x=0; x<_size; x++)
+                    for(int z=0; z<_size; z++)
+                        face += _data[x, y, z];
+
+                result += face + '\n';
+            }
+            return result;
+        }
+
         public void RandomFill()
         {
             Random random = new Random();
