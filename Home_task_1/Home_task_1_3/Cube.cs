@@ -44,7 +44,7 @@ namespace Home_task_1_3
         }
 
         public List<Line> GetLines()
-        {
+        {//Є повтор дуже подібного коду, який можна оптимізувати.
             List<Line> lines = new List<Line>();
 
             // Check for Y axis lines
