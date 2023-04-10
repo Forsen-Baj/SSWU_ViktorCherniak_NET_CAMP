@@ -1,5 +1,5 @@
 ﻿using Home_task_3_2;
-
+//Не знайшла діаграму.
 StringWorker sw  = new StringWorker();
 
 string text = "abc Abc   ,   abc, aa123 class programm hello book class bomb";
