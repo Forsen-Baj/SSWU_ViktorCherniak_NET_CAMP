@@ -21,7 +21,9 @@ namespace Home_task_2_1
 
         public abstract void AddWater(int amount);
         public abstract void RemoveWater(int amount);
+        // можливо, потрібно повертати булівське значення?
         public abstract void EmptyTower();
+        
 
         public override string ToString()
         {
