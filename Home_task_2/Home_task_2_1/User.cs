@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace Home_task_2_1
 {
     public abstract class User
-    {
+    {// чому ідентифікатор поля з великої?
         protected int ID;
         protected int demandedWater;
         protected int receivedWater;
@@ -18,8 +18,8 @@ namespace Home_task_2_1
             this.demandedWater = 0;
             this.receivedWater = 0;
         }
-
-        public abstract void UseWater(WaterTowerController controller, int amount);
+       
+        public abstract void UseWater(WaterTowerController controller, int amount)? Як буде контролюватися, чи зміг користувач здобути воду. Про це слід повідомляти симулятора.
 
         public override string ToString()
         {
