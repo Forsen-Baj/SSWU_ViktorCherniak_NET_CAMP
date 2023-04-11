@@ -18,7 +18,7 @@ namespace Home_task_2_1
             this.waterTower = waterTower;
             this.pump = pump;
         }
-
+// Контролер не використовує воду. Він тільки регулює. Використовує воду користувач.
         public abstract void UseWater(int amount);
 
         public override string ToString()
