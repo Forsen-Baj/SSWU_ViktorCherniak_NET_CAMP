@@ -27,20 +27,12 @@ cillum dolore eu fugiat nulla pariatur. @Excepteur sint occaecat cupidatat non
 proident, sunt in (culpa) qui officia deserunt mollit anim id est laborum.
 Random text to check email hello@world.com";
 
-string sampleText = "Hi @JohnDoe, how are you doing? Have you met @JaneDoe yet? hello@world. Please contact support@mycompany.com for further assistance. You can also follow us on Twitter at @MyCompany for updates.";
-
-
 var textProcessor = new TextProcessor();
 
 var sentences = textProcessor.FindAllSentencesWithBrackets(ukrainianText);
-Console.WriteLine(String.Join("\n", sentences));
+Console.WriteLine(String.Join(".\n", sentences));
 
 Console.WriteLine( "\n\n");
 
 sentences = textProcessor.FindAllSentencesWithBrackets(englishText);
-Console.WriteLine(String.Join("\n", sentences));
-
-Console.WriteLine("\n\n");
-
-sentences = textProcessor.FindAllWordsWithAt(sampleText);
-Console.WriteLine(String.Join("\n", sentences));
+Console.WriteLine(String.Join(".\n", sentences));
