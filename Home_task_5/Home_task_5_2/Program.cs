@@ -25,4 +25,7 @@ shop.departments[0].categories[1].AddItem("Milk", 7, 5, 8);
 shop.departments[0].categories[1].AddItem("Cream", 15, 20, 11);
 
 Console.WriteLine(shop);
-Console.WriteLine(shop.ToJSON());
+//Console.WriteLine(shop.ToJSON());
+ConsoleShopParser parser = new ConsoleShopParser();
+parser.CreateDepartment(shop);
+Console.WriteLine(shop);
