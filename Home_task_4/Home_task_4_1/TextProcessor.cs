@@ -18,12 +18,12 @@ namespace Home_task_4_1
 
             return clearText.Split(separators, StringSplitOptions.RemoveEmptyEntries);
         }
+        
         public List<string> FindAllSentencesWithBrackets(string text)
-        {
+        {// була умова, що стрічки не можна об'єднувати.
             string[] separators = { ".", "?", "!" };
             var sentences = ClearAndSplitText(text, separators);
-            List<string> sentencesWithBrackets = new List<string>();
-
+            List<string> sentencesWithBrackets = new List<string>()
             foreach (string sentence in sentences)
                 if (sentence.Contains("(") && sentence.Contains(")"))
                     sentencesWithBrackets.Add(sentence.Trim());
