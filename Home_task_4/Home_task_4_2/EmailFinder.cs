@@ -10,7 +10,7 @@ namespace Home_task_4_2
     internal class EmailFinder
     {
         public List<string> FindAllWordsWithAt(string text)
-        {
+        {//Пробільні символи - це не тільки пропуски
             var words = text.Split(new char[] {' ', ','}, StringSplitOptions.TrimEntries)
                       .Where(word => word.Contains("@"));
 
@@ -49,7 +49,7 @@ namespace Home_task_4_2
             {
                 return false;
             }
-
+// такі константи слід виносити за код(наприклад, в поля), щоб мати змогу міняти.
             if (email.Any(c => c < 33))
             {
                 return false;
