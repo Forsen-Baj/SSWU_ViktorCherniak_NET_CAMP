@@ -40,7 +40,7 @@ namespace Home_task_4_3
         {
             var min = electricityRecords.GetMinValues();
             var max = electricityRecords.GetMaxValues();
-
+// Краще кількість символів,  які виділяються під поле зробити змінною величиною
             //return $"{apartmentNumber}\t\t{ownerLastName}\t{min.minValue}\t\t{max.maxValue}\t\t{min.minDate:dd.MMMM.yy}\t\t{max.maxDate:dd.MMMM.yy}\n";
             return $"{apartmentNumber,-12}{ownerLastName,-15}{min.minValue,-15}{max.maxValue,-15}{min.minDate, -20:dd.MMMM.yy}{max.maxDate, -20:dd.MMMM.yy}{(DateTime.Today - max.maxDate).Days} Days\n";
 
