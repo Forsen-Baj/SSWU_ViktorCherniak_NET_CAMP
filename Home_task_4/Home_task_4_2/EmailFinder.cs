@@ -100,6 +100,7 @@ namespace Home_task_4_2
             {
                 return false;
             }
+            // не всі умови враховано.
 
             return true;
         }
