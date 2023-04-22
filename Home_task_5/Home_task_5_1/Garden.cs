@@ -8,8 +8,9 @@ using System.Threading.Tasks;
 namespace Home_task_5_1
 {
     class Garden : IComparable<Garden>
-    {
+    {// периметр краще робити результатом методу, а не полем.
         public double perimeter;
+        //порушення інкапсуляції
         public List<Point> trees;
 
         public Garden()
@@ -19,7 +20,7 @@ namespace Home_task_5_1
         }
 
         public Garden(List<Point> trees)
-        {
+        {// Слід робити глибоку копію
             this.trees = new List<Point>(trees); 
             this.perimeter = 0;
         }
