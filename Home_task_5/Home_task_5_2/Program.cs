@@ -1,7 +1,7 @@
 ﻿using Newtonsoft.Json;
 using Home_task_5_2;
 using System.Text.Json;
-
+// У Вас тільки дворівнева структура. А рівнів може бути різна кількість(((
 /*Box box = new Box("milk", "grocery", 10, 20, 30);
 Category category = new Category("Grocery", "Shrek/kek");
 category.AddBox(box);
