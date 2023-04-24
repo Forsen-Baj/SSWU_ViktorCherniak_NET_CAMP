@@ -1,5 +1,5 @@
 ﻿using Home_task_5_1;
-
+//90	10	0	95	88	85	75	91,6 
 List<Point> points = new List<Point>();
 
 points.Add(new Point(1, 1));
