@@ -1,0 +1,15 @@
+D:\SSWU_ViktorCherniak_NET_CAMP\Home_task_6\Home_task_6_3\obj\Debug\net6.0\Home_task_6_3.csproj.AssemblyReference.cache
+D:\SSWU_ViktorCherniak_NET_CAMP\Home_task_6\Home_task_6_3\obj\Debug\net6.0\Home_task_6_3.GeneratedMSBuildEditorConfig.editorconfig
+D:\SSWU_ViktorCherniak_NET_CAMP\Home_task_6\Home_task_6_3\obj\Debug\net6.0\Home_task_6_3.AssemblyInfoInputs.cache
+D:\SSWU_ViktorCherniak_NET_CAMP\Home_task_6\Home_task_6_3\obj\Debug\net6.0\Home_task_6_3.AssemblyInfo.cs
+D:\SSWU_ViktorCherniak_NET_CAMP\Home_task_6\Home_task_6_3\obj\Debug\net6.0\Home_task_6_3.csproj.CoreCompileInputs.cache
+D:\SSWU_ViktorCherniak_NET_CAMP\Home_task_6\Home_task_6_3\bin\Debug\net6.0\Home_task_6_3.exe
+D:\SSWU_ViktorCherniak_NET_CAMP\Home_task_6\Home_task_6_3\bin\Debug\net6.0\Home_task_6_3.deps.json
+D:\SSWU_ViktorCherniak_NET_CAMP\Home_task_6\Home_task_6_3\bin\Debug\net6.0\Home_task_6_3.runtimeconfig.json
+D:\SSWU_ViktorCherniak_NET_CAMP\Home_task_6\Home_task_6_3\bin\Debug\net6.0\Home_task_6_3.dll
+D:\SSWU_ViktorCherniak_NET_CAMP\Home_task_6\Home_task_6_3\bin\Debug\net6.0\Home_task_6_3.pdb
+D:\SSWU_ViktorCherniak_NET_CAMP\Home_task_6\Home_task_6_3\obj\Debug\net6.0\Home_task_6_3.dll
+D:\SSWU_ViktorCherniak_NET_CAMP\Home_task_6\Home_task_6_3\obj\Debug\net6.0\refint\Home_task_6_3.dll
+D:\SSWU_ViktorCherniak_NET_CAMP\Home_task_6\Home_task_6_3\obj\Debug\net6.0\Home_task_6_3.pdb
+D:\SSWU_ViktorCherniak_NET_CAMP\Home_task_6\Home_task_6_3\obj\Debug\net6.0\Home_task_6_3.genruntimeconfig.cache
+D:\SSWU_ViktorCherniak_NET_CAMP\Home_task_6\Home_task_6_3\obj\Debug\net6.0\ref\Home_task_6_3.dll
