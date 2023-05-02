@@ -15,6 +15,7 @@ namespace Home_task_6_2
             }
 
             result.Sort();
+            // Оскільки Ви повністю відсортували, то Ви нівелюєте використання yield.
 
             foreach (T item in result)
             {
