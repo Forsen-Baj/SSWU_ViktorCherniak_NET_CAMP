@@ -15,4 +15,14 @@ namespace Home_task_7b
             return colors[currentState];
         }
     }
+
+    internal class DirectedTrafficLight : TrafficLightBase
+    {
+        public DirectedTrafficLight(string name, int index, int[] timers) : base(name, new string[] { "червоний", "жовтий", "прямо", "прямо-направо" }, index, timers) { }
+
+        public override string GetCurrentColor()
+        {
+            return colors[currentState];
+        }
+    }
 }
