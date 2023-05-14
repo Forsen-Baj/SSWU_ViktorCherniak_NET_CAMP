@@ -18,6 +18,17 @@ namespace Home_task_7b
                 this.trafficLights.Add(trafficLight);
         }
 
+        public TrafficLightController()
+        {
+            trafficLights = new List<TrafficLightBase>();
+        }
+
+        public void AddLightsFromIntersection(IntersectionBase intersection)
+        {
+            foreach (TrafficLightBase trafficLight in intersection.trafficLights)
+                this.trafficLights.Add(trafficLight);
+        }
+
         public void ImitateConsole(int interval, int maxTime = -1)
         {
             int currentTime = 0;
