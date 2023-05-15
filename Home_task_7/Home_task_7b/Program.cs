@@ -1,4 +1,4 @@
-﻿using Home_task_7b;
+using Home_task_7b;
 using System.Text;
 
 Console.OutputEncoding = Encoding.UTF8;

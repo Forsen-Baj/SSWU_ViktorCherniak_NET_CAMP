@@ -22,7 +22,7 @@ namespace Home_task_6_1
         }
 
         public Matrix(int[,] array)
-        {
+        {//це мені вже подобається) 
             matrix = new int[array.GetLength(0), array.GetLength(1)];
             Array.Copy(array, matrix, array.Length);
         }
@@ -59,7 +59,8 @@ namespace Home_task_6_1
         }
 
         public IEnumerator<int> GetEnumerator()
-        {
+        {// такий принцип організації можливий лише для квадратної матриці. Тому треба організувати виняток, якщо ця умова не виконується.
+        // також рекомендую перевірити, чи спрацює програма для парних і непарних розмірів.
             int rows = matrix.GetLength(0);
             int cols = matrix.GetLength(1);
             int i = 0;
@@ -71,7 +72,7 @@ namespace Home_task_6_1
                 yield return matrix[i, j];
 
                 if ((i + j) % 2 == 0) // moving up
-                {
+                {// На кожному елементі Ви перепитуєте, чи він не останній. Звичайно, що це не оптимально.
                     if (j == cols - 1)
                     {
                         i++;
@@ -87,7 +88,7 @@ namespace Home_task_6_1
                     }
                 }
                 else // moving down
-                {
+                {// На кожному елементі Ви перепитуєте, чи він не останній. Звичайно, що це не оптимально.
                     if (i == rows - 1)
                     {
                         j++;
