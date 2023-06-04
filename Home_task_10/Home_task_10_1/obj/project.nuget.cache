@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "fKbj7lO3YMASDC5AkIi0l3brRooGwIBRQSbFOGJNLU3oP0lsK1wDY9e12PG+vfMRVaNW/+dIcH+jsJRVhVCJkg==",
+  "success": true,
+  "projectFilePath": "D:\\SSWU_ViktorCherniak_NET_CAMP\\Home_task_10\\Home_task_10_1\\Home_task_10_1.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\c4pgt\\.nuget\\packages\\yamldotnet\\13.1.0\\yamldotnet.13.1.0.nupkg.sha512"
+  ],
+  "logs": []
+}

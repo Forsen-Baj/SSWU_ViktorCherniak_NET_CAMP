@@ -1,0 +1,22 @@
+---
+AmericanExpress:
+  cardStarters:
+  - 34
+  - 37
+  cardLength:
+  - 15
+Visa:
+  cardStarters:
+  - 4
+  cardLength:
+  - 13
+  - 16
+MasterCard:
+  cardStarters:
+  - 51
+  - 52
+  - 53
+  - 54
+  - 55
+  cardLength:
+  - 16
